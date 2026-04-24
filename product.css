@@ -1,0 +1,67 @@
+/* ===== СТРАНИЦА ТОВАРА ===== */
+
+.product-container {
+    width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.product-image img {
+    width: 400px;
+    border-radius: 12px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h1 {
+    margin-bottom: 15px;
+}
+
+.product-info .category {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.product-info .description {
+    margin: 15px 0;
+}
+
+.product-info .price {
+    font-size: 22px;
+    color: #e30613;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-info .stock {
+    margin-bottom: 20px;
+}
+
+.cart-form input {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.btn-cart {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background: #e30613;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    background: #c20510;
+}
+
+.out {
+    color: red;
+    font-weight: bold;
+}

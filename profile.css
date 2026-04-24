@@ -1,0 +1,91 @@
+.profile-container {
+    width: min(900px, 94%);
+    margin: 30px auto;
+    font-family: Arial;
+}
+
+.profile-box, .orders-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+.profile-msg {
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.profile-error {
+    background: #ffe8ea;
+    color: #8a1d24;
+}
+.profile-ok {
+    background: #e6f8eb;
+    color: #1d6b37;
+}
+
+.order-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+}
+
+.cancel-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: red;
+    width: auto;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.pagination {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+.pagination a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: #eef1f4;
+    color: #111;
+}
+.pagination a.active {
+    background: #e30613;
+    color: #fff;
+}
+@media (max-width: 700px) {
+    .profile-container {
+        width: 94%;
+    }
+}

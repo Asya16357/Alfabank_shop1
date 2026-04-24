@@ -1,0 +1,21 @@
+.news-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.news-card a {
+    color: #d6001c;
+    text-decoration: none;
+}
+
+.news-detail {
+    max-width: 800px;
+    margin: auto;
+}
+
+.news-detail .date {
+    color: gray;
+    margin-bottom: 10px;
+}

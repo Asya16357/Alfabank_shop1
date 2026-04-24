@@ -1,0 +1,25 @@
+.about-page {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-block {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.about-block h2 {
+    color: #d6001c; /* Альфа стиль */
+    margin-bottom: 10px;
+}
+
+.about-block ul {
+    padding-left: 20px;
+}
+
+.contacts p {
+    margin: 5px 0;
+}
